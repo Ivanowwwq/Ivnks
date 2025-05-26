@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  overflow: hidden;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+.carta {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    position: absolute;
+    top: 20%;
+    left: 50%;                         
+    transform: translateX(-50%);       
+    text-align: center;
+    white-space: pre-wrap;
+    z-index: 10;
+
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
